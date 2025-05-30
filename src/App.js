@@ -28,7 +28,7 @@ function App() {
                 alt="Billing System Logo"
                 className="landing-logo"
               />
-              <h1 className="landing-heading">Welcome to the Billing </h1>
+              <h1 className="landing-heading">Welcome to the Billing sys </h1>
               <p className="landing-description">
                 Streamline your billing process with ease! Manage your store,
                 inventory, and invoices seamlessly, all in one place. Join us to
