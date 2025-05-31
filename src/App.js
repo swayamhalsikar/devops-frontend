@@ -39,7 +39,7 @@ function App() {
                   className="btn btn-login"
                   onClick={() => setCurrentView("login")}
                 >
-                  Login
+                  Login Here
                 </button>
                 <button
                   className="btn btn-register"
