@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HOST_IP = "56.228.79.163"
+        DOCKER_HOST_IP = "13.60.141.27"
         DOCKER_USER = "ubuntu"
         DOCKER_APP_DIR = "bill-app"
     }
@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/mohammadfurkanmunavalli/frontend.git'
+                git branch: 'main', url: 'https://github.com/swayamhalsikar/devops-frontend.git'
             }
         }
 
