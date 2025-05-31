@@ -36,7 +36,7 @@ function Login({ setCurrentView }) {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Login</button>
+        <button type="submit">Login Here</button>
       </form>
       <button onClick={() => setCurrentView("landing")}>Back to Home</button>
     </div>
