@@ -45,7 +45,7 @@ function App() {
                   className="btn btn-register"
                   onClick={() => setCurrentView("register")}
                 >
-                  Register Here 
+                  Register 2 
                 </button>
               </div>
             </div>
